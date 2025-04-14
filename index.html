@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/589957875e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="toolbox-cont">
+      <div class="toolbox-priority-cont">
+        <div class="lightpink color"></div>
+        <div class="lightgreen color"></div>
+        <div class="lightblue color"></div>
+        <div class="black color"></div>
+      </div>
+      <div class="action-btn-cont">
+        <div class="add-btn">
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="remove-btn">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-cont">
+      <!-- <div class="ticket-cont">
+            <div class="ticket-color"></div>
+            <div class="ticket-id">123</div>
+            <div class="ticket-area">html hardcoded task</div>
+            <div class="ticket-lock">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+        </div> -->
+    </div>
+
+    <div class="modal-cont">
+      <textarea class="textArea-cont" placeholder="Enter your task here">
+      </textarea>
+      <div class="priority-colors-container">
+        <div
+          data-color="lightpink"
+          class="lightpink priority-color active"
+        ></div>
+        <div data-color="lightgreen" class="lightgreen priority-color"></div>
+        <div data-color="lightblue" class="lightblue priority-color"></div>
+        <div data-color="black" class="black priority-color"></div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/shortid-dist@1.0.5/dist/shortid-2.2.13.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
